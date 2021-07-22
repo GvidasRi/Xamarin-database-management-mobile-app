@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Kursinis.AtnaujintiIrasa">
+    <ContentPage.Content>
+        <StackLayout>
+            <Picker x:Name="Statusas"  Title="Statusas">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                    <x:String>Sutvarkyta</x:String>
+                    <x:String>Nesutvarkyta</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Picker x:Name="Svarbumas" Title="Svarbumas">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                    <x:String>Aukštas</x:String>
+                    <x:String>Vidutinis</x:String>
+                    <x:String>Žemas</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Entry x:Name="Projektas" Placeholder="Projektas" />
+            <Entry x:Name="Problema" Placeholder="Problema" />
+            <Button x:Name="Patvirtinti" Text="Patvirtinti" Clicked="Update_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

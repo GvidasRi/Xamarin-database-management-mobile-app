@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Kursinis.AtnaujintiPaskyra">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="Vardas" Placeholder="Vardas" />
+            <Entry x:Name="Pavarde" Placeholder="Pavarde" />
+            <Entry x:Name="Username" Placeholder="Username" />
+            <Entry x:Name="Password" Placeholder="Password" />
+            <Picker x:Name="Privilegijos"  Title="Privilegijos">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>ADMIN</x:String>
+                        <x:String>FIXER</x:String>
+                        <x:String>USER</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Button x:Name="Patvirtinti" Text="Patvirtinti" Clicked="Update_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

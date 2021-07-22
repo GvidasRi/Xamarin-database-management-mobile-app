@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XamlProjectMeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Files>
+    <XamlFileMeta>
+      <FilePath>D:\Failai\Kolegija\Mob. aplikacijos\Kursinio repo\Kursinis\Kursinis\App.xaml</FilePath>
+      <Hash>1D-30-BC-80-5E-00-EB-02-7E-9F-3C-FC-B4-41-02-71</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>D:\Failai\Kolegija\Mob. aplikacijos\Kursinio repo\Kursinis\Kursinis\MainPage.xaml</FilePath>
+      <Hash>E0-1A-D5-84-11-C9-EB-C2-13-36-C3-91-17-3B-50-1B</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>D:\Failai\Kolegija\Mob. aplikacijos\Kursinio repo\Kursinis\Kursinis\Pagrindinis.xaml</FilePath>
+      <Hash>61-D9-3C-8B-9D-62-9D-3D-9A-84-83-FD-D7-4E-CC-A5</Hash>
+      <Properties />
+    </XamlFileMeta>
+  </Files>
+</XamlProjectMeta>
